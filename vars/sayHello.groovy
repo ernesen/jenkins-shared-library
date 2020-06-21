@@ -1,3 +1,3 @@
 def call(String project){
-    echo ${project}
+    echo project
 }
