@@ -1,3 +1,3 @@
 def call(String project){
-    return "hello " + project
+    echo "hello " + project
 }
