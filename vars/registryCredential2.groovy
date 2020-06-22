@@ -4,6 +4,7 @@ def call (registryCredential) {
             usernameVariable: "USER",
             passwordVariable: "PASS" 
     )]) {
-        echo "docker login --username '$USER' --password-stdin '$PASS'"
+        //echo "docker login --username '$USER' --password-stdin '$PASS'"
+        echo "docker login --username '$USER' --password '$PASS'"
     }
 }
